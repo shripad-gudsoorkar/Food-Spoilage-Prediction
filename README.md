@@ -1,5 +1,8 @@
 # Food Spoilage Prediction System
 
+### Live Demo
+Try the application: https://food-spoilage-prediction.onrender.com
+
 A deep learning-based image classification application that identifies the freshness condition of fruits and vegetables using computer vision.
 
 The project uses **MobileNetV2 with Transfer Learning and Fine-Tuning** to classify images into Fresh, Semi-Fresh, and Rotten categories. A web application built using FastAPI allows users to upload images and view predictions.
