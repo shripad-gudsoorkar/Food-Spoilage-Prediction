@@ -1,11 +1,7 @@
-tensorflow
-fastapi
-uvicorn
+tensorflow==2.21.0
+fastapi==0.162.2
+uvicorn==0.54.0
 python-multipart
-pillow
+Pillow
 numpy
-pandas
-scikit-learn
-matplotlib
-seaborn
-jupyter
+jinja2
