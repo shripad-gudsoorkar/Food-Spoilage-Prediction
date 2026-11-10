@@ -82,8 +82,6 @@ The final fine-tuned model was evaluated on the held-out test set.
 - **Macro F1-Score:** 0.9095
 - **Weighted F1-Score:** 0.9099
 
-These results reflect performance on the prepared test dataset. Performance on images from different sources may vary.
-
 ## Application Workflow
 
 1. User uploads a fruit or vegetable image.
