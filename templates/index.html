@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Spoilage Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Food Spoilage Prediction System</h1>
+        <p>Upload a fruit or vegetable image to identify its freshness.</p>
+
+        <div class="upload-box">
+            <input type="file" id="imageInput" accept="image/*">
+            <img id="preview" alt="Image Preview">
+
+            <button onclick="predictFood()">Predict Freshness</button>
+        </div>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
